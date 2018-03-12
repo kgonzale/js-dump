@@ -8,7 +8,7 @@ const fizzBuzz = (userInput) => {
     else if(userInput % 5 == 0){
         console.log("buzz");
     }
-    else if(userInput % 3 == 0 || userInput % 5 == 0){
+    else if(userInput % 3 == 0 && userInput % 5 == 0){
         console.log("fizz buzz");
     }
 }

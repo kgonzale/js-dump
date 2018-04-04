@@ -1,0 +1,43 @@
+Java -
+== is primitive
+.equals() is for objects
+
+JavaScript - 
+○ Variables are containers that I can store values in..
+○ Redefining a variable that is already assigned a variable is coercion.
+
+var: accessible anywhere in the code if not initialized in the function
+let: only accessible in the block you've declared it in
+const: works the same as var, but cannot reassign value
+
+Operators:
+○ Infix: operator is between two parameters
+○ Prefix: Operator is before the parameters.
+○ Postfix: Operator is behind the parameters.
+
+Should be used almost all the time:
+!== is a strict not equals
+=== is a strict equals
+
+Falsy: Undefined, null, NaN, 0, "", and False
+
+An object is a collection of related data:
+let person = {
+  name: ["Kevin", "Gonzalez"],
+  age: 20,
+  gender: male
+}
+
+Where person is an object with multiple members..
+
+let anyObj = {
+  firstName: ...,
+  lastName: ...,
+  gender: ...
+}
+
+Object.entries
+Object.keys
+Object.values
+Object.assign
+delete myObj.firstName
